@@ -58,13 +58,13 @@ data.raw["recipe"]["nuclear-fuel"].crafting_machine_tint = {
 }
 
 -- test
-data:extend{
-  {
-    type = "recipe",
-    name = "dff-tint-fixup-checker",
-    icon = "__base__/graphics/icons/wood.png",
-    category = "centrifuging",
-    ingredients = {{type="item", name="wood", amount=1}},
-    results = {},
-  }
-}
+-- data:extend{
+--   {
+--     type = "recipe",
+--     name = "dff-tint-fixup-checker",
+--     icon = "__base__/graphics/icons/wood.png",
+--     category = "centrifuging",
+--     ingredients = {{type="item", name="wood", amount=1}},
+--     results = {},
+--   }
+-- }
