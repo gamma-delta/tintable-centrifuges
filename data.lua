@@ -28,6 +28,12 @@ for i,ani_layer in ipairs(centri_wvs[2].animation.layers) do
   table.insert(new_centri_wvs, new_wv)
 end
 centri.graphics_set.working_visualisations = new_centri_wvs
+centri.graphics_set.default_recipe_tint = {
+  primary = {0, 1, 0},
+  secondary = {0, 1, 0},
+  tertiary = {0, 1, 0},
+  quaternary = {0, 1, 0},
+}
 
 -- Add colors to vanilla recipes
 local bright = {0, 1, 0}

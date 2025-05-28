@@ -17,4 +17,4 @@ Just add a `crafting_machine_tint` to your centrifuge recipes.
 
 Even if the user doesn't use this mod in the end, adding `crafting_machine_tint` won't break anything in vanilla (although of course nothing will happen).
 
-In `data-final-fixes` this mod will search every recipe for things that can be crafted in the centrifuge, but don't have a `crafting_machine_tint`, and assigns them the default green color.
+Any recipe that doesn't define a color falls back to the default neon-green.
